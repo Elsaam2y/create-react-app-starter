@@ -1,6 +1,0 @@
-typing_extensions==4.3.0
-replicate
-mangum
-uvicorn
-python-dotenv
-fastapi
