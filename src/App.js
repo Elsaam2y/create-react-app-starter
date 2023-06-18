@@ -83,7 +83,7 @@ const App = () => {
             Paella
           </Link>{" "}
           text-to-image models to generate images given an input text. For the
-          latter, the model is being trained on a the{" "}
+          latter, the model is being trained on the{" "}
           <Link
             href={"https://huggingface.co/datasets/poloclub/diffusiondb"}
             target="_blank"
