@@ -48,7 +48,7 @@ const App = () => {
     try {
       const response = await axios.get(
         //`http://127.0.0.1:8000/generate_response?prompt=${prompt}`
-        `${process.env.REACT_APP_BACKEND_URL}/generate_response?prompt=${prompt}`
+        `${process.env.REACT_APP_BACKEND_URL}/?prompt=${prompt}`
       );
       updateImage(response.data.image); // Set the base64-encoded image data
     } catch (error) {
